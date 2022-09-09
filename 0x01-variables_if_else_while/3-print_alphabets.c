@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - prints lower and upper case alphabets
+ * main - prints lower and uppercase alphabet
  * Return: (0)
  */
 int main(void)
 {
 	char ch_1 = 'a';
 	char ch_2 = 'A';
-	
+
 	while (ch_1 <= 'z')
 	{
 		putchar(ch_1);
