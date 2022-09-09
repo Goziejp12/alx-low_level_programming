@@ -4,13 +4,14 @@
  * Return: (0)
  */
 
-int main(0)
+int main(void)
 {
 	char ch = a;
 
-	for (ch = a; ch <= z; ch++)
+	while (ch <= z)
 	{
 	putchar(ch);
+	ch++;
 	}
 	return (0);
 
