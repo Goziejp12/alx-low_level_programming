@@ -5,7 +5,8 @@
  */
 int main(void)
 {
-	char h, h2;
+	int h;
+	char h2;
 
 	for (h = 0; h < 10; h++)
 	{
