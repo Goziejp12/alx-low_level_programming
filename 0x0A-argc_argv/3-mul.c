@@ -10,15 +10,13 @@
  * @argv: character variable
  * Return: 0
  */
-int main(int argc; char *argv[])
+int main(int argc, char *argv[])
 {
-	int x, y, mul;
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
+	int mul;
 
 	if (argc == 3)
 	{
-			mul = x * y;
+			mul = atoi(argv[1]) * atoi(argv[2]);
 			printf("%d\n", mul);
 	}
 	else
