@@ -17,14 +17,10 @@ int main(int argc; char *argv[])
 	{
 		mul = mul * atoi(argv[i]);
 		printf("%d\n", mul);
-			if (argc == 3)
-			{
-				return (1);
-			}
-			else
+			if (argc != 3)
 			{
 				printf("Error\n");
 			}
 	}
-	return (0);
+	return (1);
 }
