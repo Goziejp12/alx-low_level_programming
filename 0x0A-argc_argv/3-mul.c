@@ -7,6 +7,7 @@
  * multiplication can be stored in an integer
  * If the program does not receive two arguments,
  * your program should print Error, followed by a new line, and return 1
+ * @argc: argument count
  * @argv: character variable
  * Return: 0
  */
