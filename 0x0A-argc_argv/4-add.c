@@ -7,8 +7,24 @@
  * print Error, followed by a new line, and return 1
  * @argc: argument count
  * @argv: arguments
+ * isDigit - checks digit
+ * @s: pointer variable
  * Return: 0
  */
+int isDigit(const char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		if (s[i] < '0' || s[i] > '9')
+		{
+			return (1);
+			i++;
+		}
+	}
+	return (0);
+}
 int main(int argc, char *argv[])
 {
 	int i, add;
@@ -26,7 +42,7 @@ int main(int argc, char *argv[])
 	{
 		printf("0\n");
 	}
-	else if (argc < 0)
+	else if (isDigit(argv[argc]))
 	{
 		printf("Error\n");
 		return (1);
