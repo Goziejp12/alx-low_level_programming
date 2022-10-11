@@ -1,6 +1,9 @@
 #include <stdio.h>
 /**
- * struct - structure function
+ * struct dog- structure function
+ * @name: name member
+ * @age: age member
+ * @owner: owner member
  * Return: 0
  */
 struct dog
